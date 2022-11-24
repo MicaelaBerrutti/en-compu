@@ -11,7 +11,7 @@ radio.onReceivedValue(function (name, value) {
 basic.showIcon(IconNames.Yes)
 radio.setGroup(128)
 basic.forever(function () {
-    let saltos = 0
-    basic.showNumber(saltos)
+    let pulsoMinuto = 0
+    basic.showNumber(pulsoMinuto)
     basic.showIcon(IconNames.Heart)
 })
